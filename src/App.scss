@@ -3,7 +3,9 @@ $h-100vh: 100vh;
 // end-variables
 
 // functions
-
+@function caculateWidth($widthWarp, $item){
+    @return $widthWarp/ $item;
+}
 // end-functions
 
 // styles
@@ -14,7 +16,7 @@ body {
     }
 }
 .app {
-    color: red;
+    color: red; 
 }
 
 // end-styles
